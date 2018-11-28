@@ -64,6 +64,7 @@ body{
   background-color: #4caf50;
   text-align: center;
   vertical-align: middle;
+  padding: 5%;
 }
 
 .formContainer{
@@ -78,9 +79,18 @@ body{
   background-color: #4caf50 !important;
   border-color: #4caf50 !important;
   height: 6vh;
+  cursor: not-allowed;
 }
 
 .titles{
   float: left;
   margin-left: 10px;
+}
+
+.alert{
+  width: 100%;
+  height: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
 }
