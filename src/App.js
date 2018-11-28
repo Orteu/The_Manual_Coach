@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faKey } from '@fortawesome/free-solid-svg-icons'
+
 import {
     Collapse,
         Navbar,
@@ -8,13 +11,10 @@ import {
         } from 'reactstrap';
 import LoginForm from "./components/LoginForm";
 
-class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
 
-        };
-    }
+library.add(faKey);
+
+class App extends Component {
     render() {
         return (
             <React.Fragment>
@@ -22,7 +22,7 @@ class App extends Component {
                 <div>
                     <Navbar color="dark" light expand="md">
                         <NavbarBrand href="/">
-                            <img src="https://iscgeneva.com/wp-content/uploads/2015/12/TCM-900x500.jpg" alt="20px" height={"20px"}/>
+                            <img src="https://cdn0.iconfinder.com/data/icons/flatty-balls/633/02_FlatBallIcons_Soccer-512.png" alt="20px" height={"30px"}/>
                         </NavbarBrand>
 
                         <Collapse navbar>
@@ -33,7 +33,7 @@ class App extends Component {
                     </Navbar>
                 </div>
               <div className={"fullContainer"}>
-                  <LoginForm/>
+                  <LoginForm />
               </div>
 
             </React.Fragment>

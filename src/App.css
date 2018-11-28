@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+svg{
+  color: white;
+}
+
+
+h5{
+  color: white !important;
+  font-weight: bold !important;
+  display: inline-block;
+  margin-left: 10px;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -45,9 +56,9 @@ body{
 .fullContainer {
   background-color: #ffffff;
   width: 33%;
-  height: 50%;
+  height: 52%;
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 33%;
   border-radius: 11px 11px 11px 11px;
   -moz-border-radius: 11px 11px 11px 11px;
@@ -94,3 +105,35 @@ body{
   margin-bottom: 2%;
 
 }
+
+.errorContainer{
+  margin-top: 15%;
+}
+
+#forgot{
+  color: #4caf50;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#signUp{
+  color: #4caf50;
+  float:right;
+  margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+.optionsContainer{
+  margin-top: 2vh;
+}
+p>span{
+  color: black;
+  display: inline-block;
+}
+
+.modal-title{
+  color: black !important;
+}
+
+
+
