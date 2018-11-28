@@ -30,3 +30,57 @@
     transform: rotate(360deg);
   }
 }
+
+.line{
+  width: 100%;
+  height: 8px;
+  background: #4caf50;
+}
+
+body{
+  background-image: url("./img/background.jpg");
+  background-size:cover;
+}
+
+.fullContainer {
+  background-color: #ffffff;
+  width: 33%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+}
+
+.headerForm{
+  border-radius: 11px 11px 0px 0px;
+  -moz-border-radius: 11px 11px 0px 0px;
+  -webkit-border-radius: 11px 11px 0px 0px;
+  border: 2px solid #000000;
+  width: 100%;
+  height: 9vh;
+  background-color: #4caf50;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.formContainer{
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+.buttonSubmitForm{
+  margin-top: 10px;
+  width: 100%;
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+  height: 6vh;
+}
+
+.titles{
+  float: left;
+  margin-left: 10px;
+}
