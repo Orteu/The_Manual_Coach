@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/The_Manual_Coach/precache-manifest.9baa9d89fa836bbf5c7497e50913e24c.js"
+  "/ManualCoach/precache-manifest.25d8140796a3fb3fa8b2ffdfbc6cc2cd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/The_Manual_Coach/index.html", {
+workbox.routing.registerNavigationRoute("/ManualCoach/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
