@@ -1,16 +1,16 @@
 {
-  "main.css": "/ManualCoach/static/css/main.23dc2867.chunk.css",
-  "main.js": "/ManualCoach/static/js/main.35ab102a.chunk.js",
-  "main.js.map": "/ManualCoach/static/js/main.35ab102a.chunk.js.map",
+  "main.css": "/ManualCoach/static/css/main.6126a28d.chunk.css",
+  "main.js": "/ManualCoach/static/js/main.d881c433.chunk.js",
+  "main.js.map": "/ManualCoach/static/js/main.d881c433.chunk.js.map",
   "static/css/1.67d26aae.chunk.css": "/ManualCoach/static/css/1.67d26aae.chunk.css",
   "static/js/1.d0a3fd0c.chunk.js": "/ManualCoach/static/js/1.d0a3fd0c.chunk.js",
   "static/js/1.d0a3fd0c.chunk.js.map": "/ManualCoach/static/js/1.d0a3fd0c.chunk.js.map",
   "runtime~main.js": "/ManualCoach/static/js/runtime~main.be8d7bd5.js",
   "runtime~main.js.map": "/ManualCoach/static/js/runtime~main.be8d7bd5.js.map",
-  "static/css/main.23dc2867.chunk.css.map": "/ManualCoach/static/css/main.23dc2867.chunk.css.map",
-  "static/media/App.css": "/ManualCoach/static/media/background.9f336f48.jpg",
   "static/css/1.67d26aae.chunk.css.map": "/ManualCoach/static/css/1.67d26aae.chunk.css.map",
+  "static/media/App.css": "/ManualCoach/static/media/background.9f336f48.jpg",
+  "static/css/main.6126a28d.chunk.css.map": "/ManualCoach/static/css/main.6126a28d.chunk.css.map",
   "index.html": "/ManualCoach/index.html",
-  "precache-manifest.916620671542629c866c17c407d0eed1.js": "/ManualCoach/precache-manifest.916620671542629c866c17c407d0eed1.js",
+  "precache-manifest.74d0a5bbae5008a017f53687f47f9285.js": "/ManualCoach/precache-manifest.74d0a5bbae5008a017f53687f47f9285.js",
   "service-worker.js": "/ManualCoach/service-worker.js"
 }
