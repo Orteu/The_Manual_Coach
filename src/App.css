@@ -48,20 +48,34 @@ h5{
   background: #4caf50;
 }
 
-body{
+html{
   background-image: url("./img/background.jpg");
-  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@media only screen and (max-device-width: 480px) {
-    .fullContainer {
-        width: 60%;
-    }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .fullContainer {
+    background-color: #ffffff;
+    width: 60% !important;
+    height: max-content;
+    position: absolute;
+    top: 25%;
+    left: 20% !important;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+  }
+
 }
 
 .fullContainer {
     background-color: #ffffff;
-    width: 33%;
+    width: max-content;
     height: max-content;
     position: absolute;
     top: 25%;
@@ -114,7 +128,8 @@ body{
 }
 
 .errorContainer{
-  margin-top: 15%;
+  margin-top: 15% !important;
+  margin: 5%;
 }
 
 #forgot{
@@ -141,6 +156,5 @@ p>span{
 .modal-title{
   color: black !important;
 }
-
 
 
